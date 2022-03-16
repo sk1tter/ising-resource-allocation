@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ising-resource-allocation"
+version = "0.1.0"
+description = ""
+authors = ["Dohyun Park <dohyun1357@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8,<3.11"
+streamlit = "^1.7.0"
+numpy = "^1.22.0"
+matplotlib = "^3.5.1"
+sklearn = "^0.0"
+stqdm = "^0.0.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+watchdog = "^2.1.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
