@@ -66,7 +66,7 @@ def main():
             st.error("You must generate data first.")
             return
 
-        ising = ising(
+        res = ising(
             st.session_state.sample_data,
             st.session_state.sample_data_labels,
             maxiter=max_iterations,
@@ -77,7 +77,7 @@ def main():
             ax=st.session_state.ax,
             c=st.session_state.res_box,
         )
-        print(ising)
+        print(res)
 
 
 if __name__ == "__main__":
